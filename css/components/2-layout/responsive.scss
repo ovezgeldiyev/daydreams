@@ -1,0 +1,122 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  h1 {
+    font-size: 60px;
+  }
+  p {
+    &.big {
+      font-size: 20px;
+    }
+  }
+//   @include hero-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+//   @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  p {
+    &.big {
+      font-size: 18px;
+    }
+  }
+  @include hero-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  @include info-lg-xlg;
+}
+// 930px
+@include md-lg {
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 120%;
+    &.big {
+      font-size: 16px;
+    }
+  }
+  body {
+    font-size: 16px;
+  }
+  .button {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  @include hero-md-lg;
+  @include info-md-lg;
+  @include footer-md-lg;
+}
+// 750px
+@include sm-md {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  @include hero-sm-md;
+  @include intro-sm-md;
+  @include info-sm-md;
+  @include footer-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  @include intro-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 14px;
+    &.big {
+      font-size: 8px;
+    }
+  }
+  body {
+    font-size: 14px;
+  }
+  .button {
+    font-size: 20px;
+    line-height: 26px;
+    span {
+      width: 26px;
+      height: 26px;
+    }
+  }
+  @include hero-xsm-sm;
+  @include intro-xsm-sm;
+  @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  @include hero-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include hero-xxxsm-xxsm;
+}
